@@ -3,14 +3,12 @@ Choropleth Map
 
 Visualize Data with a Choropleth Map
 
+Here's the [Final Choropleth Map](https://sarvade.github.io/Choropleth-Map/):
+
+
 This is a freeCodeCamp Choropleth Map project, we import some JSON data with geographical and educational data about counties in the United States and use d3 to render a Choropleth Map, by converting topojson into geojson and then using the geoPath() method to draw paths.
 
 Source code can be found in this repo.
-
-
-
-Here's the [Visualize Data with a Choropleth Map](https://sarvade.github.io/Choropleth-Map/):
-<iframe src="https://sarvade.github.io/Choropleth-Map/" frameborder="0" height="550" width="800" scrolling="no" title="3D New York City Demonstration"></iframe>
 
 
 ## Project Setup
@@ -104,6 +102,11 @@ countyData = topojson.feature(countyData, countyData.objects.counties)
 console.log('County Data')
 console.log(countyData)
 ```
+
+Note that there are exactly 3142 objects in each set of data, and the ids from the map array match the fips codes from the second array, so we can associate these together.
+
+Now we have the county map data and education data set up, ready for use!
+
 
 
 
