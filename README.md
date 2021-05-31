@@ -1,7 +1,6 @@
-# Choropleth-Map
-Choropleth Map
+# Choropleth Map for United States Adult Education
 
-Visualize Data with a Choropleth Map
+## Visualize Data with a Choropleth Map
 
 Here's the [Final Choropleth Map](https://sarvade.github.io/Choropleth-Map/):
 
